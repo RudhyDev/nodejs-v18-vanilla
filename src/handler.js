@@ -10,7 +10,7 @@ const allRoutes = {
 	//404 route
 	default: (req, res) => {
 		res.writeHead(404, DEFAULT_HEADER);
-		res.write("<h1>やめてください 🙅‍♂️</h1>");
+		res.write("やめてください 🙅‍♂️");
 		res.end();
 	},
 };
